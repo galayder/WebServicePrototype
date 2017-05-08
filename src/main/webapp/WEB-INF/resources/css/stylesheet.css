@@ -1,0 +1,10 @@
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 30px;
+}
+
+button, input {
+    margin: 5px 0 5px 0;
+}
