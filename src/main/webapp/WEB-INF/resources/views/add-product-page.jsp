@@ -16,7 +16,13 @@
         <form method="POST" action="/home/add-product/add-next-product">
             Name:<br>
             <input type="text" name="name"><br>
-            <button type="submit">Add next product</button>
+            Description:<br>
+            <input type="text" name="description"><br>
+            Quantity:<br>
+            <input type="number" name="quantity"><br>
+            Price:<br>
+            <input type="number" name="price"><br>
+            <button type="submit">Add product</button>
         </form>
 
         <form method="GET" action="/home">

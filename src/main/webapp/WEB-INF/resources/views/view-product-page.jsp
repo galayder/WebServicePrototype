@@ -10,7 +10,11 @@
 <body>
 <div id="content">
     <h1>View Product Page</h1>
-    <form method="POST" action="/home/add-product/add-next-product">
+    <c:if test="${not empty message}">
+        ${message.name}
+    </c:if>
+
+    <form method="GET" action="/home/view-products/result">
         Name:<br>
         <input type="text" name="name"><br>
         <button type="submit">Add next product</button>

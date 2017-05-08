@@ -14,7 +14,7 @@
             <button type="submit">Add new products</button>
         </form>
 
-        <form method="GET" action="#">
+        <form method="GET" action="/home/view-products">
             <button type="submit">View products</button>
         </form>
     </div>
